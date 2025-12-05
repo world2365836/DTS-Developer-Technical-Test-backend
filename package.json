@@ -1,0 +1,42 @@
+{
+  "name": "hmcts-task-backend",
+  "version": "1.0.0",
+  "description": "Backend API for HMCTS task management",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon dist/app.js",
+    "start": "concurrently npm:start:*",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.5",
+    "@types/helmet": "^4.0.0",
+    "@types/joi": "^17.2.3",
+    "@types/pg": "^8.15.6",
+    "@types/uuid": "^11.0.0",
+    "body-parser": "^2.2.1",
+    "concurrently": "^9.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "joi": "^18.0.2",
+    "pg": "^8.16.3",
+    "reflect-metadata": "^0.2.2",
+    "supertest": "^7.1.4",
+    "ts-node-dev": "^2.0.0",
+    "ts-postgres": "^2.0.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/supertest": "^6.0.3",
+    "jest": "^30.2.0",
+    "ts-jest": "^29.4.6"
+  }
+}

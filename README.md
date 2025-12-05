@@ -1,4 +1,4 @@
-# DTS-Developer-Technical-Test-backend
+BACKEND_STARTER_REPO
 A  web application built with   Node backend
 
  Prerequisites
@@ -45,7 +45,9 @@ API Endpoints
 Authentication
 
 POST /api/addtask - Create new item 
-Environment Variables(.env)
+
+🔐 Environment Variables
+Backend (.env)
 Variable	Description	Default
 PORT	Server port	3000
 NODE_ENV	Environment	development
